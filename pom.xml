@@ -4,7 +4,7 @@
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-		<bukkitVersion>LATEST</bukkitVersion>
+		<bukkitVersion>1.8-R0.1-SNAPSHOT</bukkitVersion>
 		<mainClass>${project.groupId}.${project.artifactId}</mainClass>
 		<api.version>1.6</api.version>
 	</properties>
@@ -75,7 +75,7 @@ Vault currently supports the following: Permissions 3, PEX, GroupManager, bPerms
 		<dependency>
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
-			<version>LATEST</version>
+			<version>${bukkitVersion}</version>
 		</dependency>
 		<dependency>
 			<groupId>net.milkbowl.vault</groupId>
